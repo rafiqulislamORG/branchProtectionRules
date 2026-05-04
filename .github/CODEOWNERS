@@ -1,0 +1,59 @@
+# =========================================
+# 👑 Global fallback (Sr DevOps owns all)
+# =========================================
+*                                   @rafiqulislamORG/sr-devops
+
+# =========================================
+# ⚙️ DevOps / Infrastructure
+# =========================================
+Dockerfile                          @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+docker-compose.yml                  @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+docker/                             @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+
+.github/workflows/                  @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+.github/actions/                    @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+
+k8s/                                @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+kubernetes/                         @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+helm/                               @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+
+nginx/                              @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+
+# =========================================
+# 🧪 Junior DevOps (limited scope)
+# =========================================
+scripts/                            @rafiqulislamORG/jr-devops @rafiqulislamORG/devops
+
+# =========================================
+# 🧠 Backend Team
+# =========================================
+backend/                            @rafiqulislamORG/backend-team
+api/                                @rafiqulislamORG/backend-team
+server/                             @rafiqulislamORG/backend-team
+
+db/                                 @rafiqulislamORG/backend-team
+database/                           @rafiqulislamORG/backend-team
+migrations/                         @rafiqulislamORG/backend-team
+
+# =========================================
+# 👨‍💻 Dev Team (Application Layer)
+# =========================================
+src/                                @rafiqulislamORG/dev-team
+app/                                @rafiqulislamORG/dev-team
+frontend/                           @rafiqulislamORG/dev-team
+
+# =========================================
+# 🔐 Sensitive Config (Sr DevOps only)
+# =========================================
+.env                                @rafiqulislamORG/sr-devops
+.env.*                              @rafiqulislamORG/sr-devops
+config/                             @rafiqulislamORG/sr-devops
+
+package.json                        @rafiqulislamORG/sr-devops
+package-lock.json                   @rafiqulislamORG/sr-devops
+requirements.txt                    @rafiqulislamORG/sr-devops
+
+# =========================================
+# 📜 Automation & Build
+# =========================================
+Makefile                            @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
