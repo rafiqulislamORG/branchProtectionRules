@@ -7,9 +7,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install && \
-    npm install tailwindcss @tailwindcss/vite && \
-    npm install -D daisyui@latest
+RUN npm ci
 
 # Copy all source code
 COPY . .
