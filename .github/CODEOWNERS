@@ -6,14 +6,14 @@
 # =========================================
 # ⚙️ DevOps / Infrastructure
 # =========================================
-Dockerfile                          @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+/front-end/Dockerfile               @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
 docker-compose.yml                  @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
 docker/                             @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
 
-.github/workflows/                  @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
-.github/actions/                    @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+.github/*                           @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
 
-k8s/                                @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+
+k8s/*                               @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
 kubernetes/                         @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
 helm/                               @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
 
@@ -38,9 +38,8 @@ migrations/                         @rafiqulislamORG/backend-team
 # =========================================
 # 👨‍💻 Dev Team (Application Layer)
 # =========================================
-src/                                @rafiqulislamORG/dev-team
-app/                                @rafiqulislamORG/dev-team
-frontend/                           @rafiqulislamORG/dev-team
+src/*                               @rafiqulislamORG/dev-team
+
 
 # =========================================
 # 🔐 Sensitive Config (Sr DevOps only)
