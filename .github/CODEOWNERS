@@ -1,39 +1,23 @@
 # =========================================
 # 👑 Global fallback (Sr DevOps owns all)
 # =========================================
-*                                   @rafiqulislamORG/sr-devops
+*                                   @rafiqulislamORG/devops
 
 # =========================================
 # ⚙️ DevOps / Infrastructure
 # =========================================
-/front-end/Dockerfile               @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
-docker-compose.yml                  @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
-docker/                             @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+/front-end/Dockerfile               @rafiqulislamORG/devops @rafiqulislamORG/devops
+docker-compose.yml                  @rafiqulislamORG/devops @rafiqulislamORG/devops
 
-.github/*                           @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+.github/*                           @rafiqulislamORG/devops @rafiqulislamORG/devops
+
+k8s/*                               @rafiqulislamORG/devops @rafiqulislamORG/devops
 
 
-k8s/*                               @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
-kubernetes/                         @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
-helm/                               @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+backend/                            @rafiqulislamORG/dev-team
+api/                                @rafiqulislamORG/dev-team
+server/                             @rafiqulislamORG/dev-team
 
-nginx/                              @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
-
-# =========================================
-# 🧪 Junior DevOps (limited scope)
-# =========================================
-scripts/                            @rafiqulislamORG/jr-devops @rafiqulislamORG/devops
-
-# =========================================
-# 🧠 Backend Team
-# =========================================
-backend/                            @rafiqulislamORG/backend-team
-api/                                @rafiqulislamORG/backend-team
-server/                             @rafiqulislamORG/backend-team
-
-db/                                 @rafiqulislamORG/backend-team
-database/                           @rafiqulislamORG/backend-team
-migrations/                         @rafiqulislamORG/backend-team
 
 # =========================================
 # 👨‍💻 Dev Team (Application Layer)
@@ -44,15 +28,15 @@ src/*                               @rafiqulislamORG/dev-team
 # =========================================
 # 🔐 Sensitive Config (Sr DevOps only)
 # =========================================
-.env                                @rafiqulislamORG/sr-devops
-.env.*                              @rafiqulislamORG/sr-devops
-config/                             @rafiqulislamORG/sr-devops
+.env                                @rafiqulislamORG/devops
+.env.*                              @rafiqulislamORG/devops
+config/                             @rafiqulislamORG/devops
 
-package.json                        @rafiqulislamORG/sr-devops
-package-lock.json                   @rafiqulislamORG/sr-devops
-requirements.txt                    @rafiqulislamORG/sr-devops
+package.json                        @rafiqulislamORG/devops
+package-lock.json                   @rafiqulislamORG/devops
+requirements.txt                    @rafiqulislamORG/devops
 
 # =========================================
 # 📜 Automation & Build
 # =========================================
-Makefile                            @rafiqulislamORG/devops @rafiqulislamORG/sr-devops
+Makefile                            @rafiqulislamORG/devops @rafiqulislamORG/devops
