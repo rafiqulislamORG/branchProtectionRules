@@ -4,7 +4,7 @@ import Users from './Users'
 const Home = () => {
     return (
         <div>
-            <h3>This is home</h3>
+            <h3>This is home home home...........yeah!!!</h3>
             <Users></Users>
 
         </div>
